@@ -1,19 +1,22 @@
 /* */
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 h1 {
-  color: white;
-  font-size: 40px;
-  text-align: center;
+  font-size: 54px;
 }
 
 h3 {
-  color: white;
-  font-size: 22px;
-  text-align: center;
+  font-size: 28px;
 }
 
-.navigation {
+/* Navigation bar */
+#navigation {
   text-align: center;
-  background-color: rgb(50, 50, 50);opacity:0.85;
+  background-color: rgb(50, 50, 50);
+  opacity: 0.95;
   padding: 10px;
   background-position: center;
   position: fixed;
@@ -21,16 +24,19 @@ h3 {
   left: 0;
   right: 0;
   width: 100%;
+  height: 25px;
 }
 
 nav a {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 100;
   display: inline-block;
 }
 
+nav img {
+  padding: auto;
+}
 nav span {
   padding: 30px;
 }
@@ -40,7 +46,85 @@ a {
   text-decoration: none; /* Remove Underline */
 }
 
-.iPhone14Pro {
-  padding: 40px 0 100px 0;
+/* iPhone 14 Pro Section */
+
+#iPhone14Pro {
+  padding: 40px 0 0 0;
   background-color: black;
 }
+
+#iPhone14Pro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#iPhone14Pro .content {
+  color: white;
+  text-align: center;
+}
+
+/* iPhone 14 Section */
+
+#iPhone14 .content {
+  color: black;
+  text-align: center;
+}
+
+#iPhone14 {
+  padding: 40px 0 10px 0;
+  background-color: rgb(249, 249, 249);
+}
+
+#iPhone14 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Apple Watch Series 8 Section */
+
+#applewatch {
+  padding: 40px 0 0 0;
+  background-color: black;
+}
+
+#applewatch .content {
+  color: white;
+  text-align: center;
+}
+
+#applewatch h4 {
+  color: red;
+}
+
+#applewatch img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Apple Watch Ultra Section */
+
+#applewatch_ultra {
+  padding: 40px 0 0 0;
+  background-color: white;
+}
+
+#applewatch_ultra .content {
+  color: black;
+  text-align: center;
+}
+
+#applewatch_ultra h4 {
+  color: red;
+}
+
+#applewatch_ultra img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
